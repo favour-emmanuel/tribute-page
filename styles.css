@@ -1,0 +1,127 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #e9e9e9;
+}
+
+header {
+  background: #2c2c2c;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  color: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  font-size: 14px;
+  color: white;
+}
+
+main {
+  max-width: 735px;
+  margin: 18px auto;
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #7ebde2;
+}
+
+.top-section {
+  padding-top: 5px;
+  padding-bottom: 40px;
+  max-width: 570px;
+  margin: 10px auto;
+}
+
+.top-section p {
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+.line {
+  border-top: 1px solid #e3e3e3;
+  max-width: 660px;
+  margin: 10px auto;
+}
+
+.section {
+  padding-top: 20px;
+  max-width: 400px;
+  margin: 10px auto 15px;
+  text-align: left;
+}
+
+.section h3 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.section p {
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  line-height: 16px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.section h4 {
+  color: #cfcfcf;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.section .mushy {
+  margin-top: 35px;
+}
+.below h3 {
+  color: #9b9b9b;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.below p {
+  color: #dcdcdc;
+  letter-spacing: 0.9px;
+}
+
+footer {
+  border-top: 1px solid #e3e3e3;
+  max-width: 660px;
+  margin: 50px auto 10px auto;
+  color: #202020;
+}
+
+footer h2 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+footer h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
